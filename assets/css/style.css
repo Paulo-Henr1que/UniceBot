@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(59, 0, 255, 0.76) 0%, rgba(128, 0, 255, 0.83) 100%);
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.logo img{
+    height: 74px;
+}
+.menu ul li{
+    list-style: none;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+}
+.menu a{
+    color: #FFF;
+    margin-left: 35px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+}
+.menu a:hover,
+.menu .active{
+    border-bottom: 2px solid #FFF;
+}
+/*HEADER FIM*/
+
+/*MAIN*/
+.conteudo-main{
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+}
+.texto-area h1{
+    margin-top: 40px;
+    font-size: 55px;
+
+}
+.barra{
+    margin-top: 13px;
+    margin-bottom: 33px;
+    width: 200px;
+    height: 4px;
+    background-color: #FFF;
+    border-radius: 2px;
+}
+.texto-area p{
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+    line-height: 30px;
+}
+.conteudo-main a{
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 12px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    border-radius: 45px;
+    background: linear-gradient(90deg, #4C70EF 0%, #5D88F6 100%);
+}
+/*MAIN FIM*/
+
+/*FOOTER*/
+footer{
+    flex-direction: column;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linha-footer{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    width: 384px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #5a22b4;
+}
+.texto{
+    color: #FFF;
+    font-weight: 600;
+}
+/*FOOTER FIM*/
+
+
+
+@media (min-width:520px) and (max-width:1180px) {
+    body{
+        background-color: #4C70EF;
+        overflow-x:hidden; 
+    }
+    header{
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 68px;
+    }
+    .menu{
+        display: none;
+    }
+    .img-area{
+        display: none;
+    }
+    .conteudo-main{
+        padding-top: 30px;
+    }
+    .texto-area h1{
+        font-size: 60px;
+    }
+    .texto-area p{
+        font-size:28px ;
+        line-height: 30px;
+        width: 350px;
+    }
+    .conteudo-main a{
+        padding: 20px 30px;
+        font-size: 19px;
+    }
+   
+    footer{
+        margin-top: 130px;
+    }
+    .linha-footer{
+        width: 160px;
+        background-color: #3c0b8a;
+    }
+
+}
+
+@media (max-width:520px) {
+    body{
+        background-color: #4C70EF;
+        overflow-x:hidden; 
+    }
+    header{
+        justify-content: center;
+
+    }
+    .logo img{
+        height: 58px;
+    }
+    .menu{
+        display: none;
+    }
+    .img-area{
+        display: none;
+    }
+    .conteudo-main{
+        padding-top: 80px;
+    }
+    .texto-area h1{
+        font-size: 38px;
+    }
+    .texto-area p{
+        font-size:18px ;
+        line-height: 30px;
+        width: 350px;
+    }
+    .conteudo-main a{
+        padding: 13px 16px;
+        font-size: 19px;
+    }
+   
+    footer{
+        margin-top: 180px;
+    }
+    .linha-footer{
+        width: 160px;
+        background-color: #3c0b8a;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
