@@ -106,6 +106,14 @@ footer{
     color: #FFF;
     font-weight: 600;
 }
+.texto a{
+    color: #FFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+.texto a:hover{
+    text-decoration: underline;
+}
 /*FOOTER FIM*/
 
 
